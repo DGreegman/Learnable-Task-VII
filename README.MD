@@ -2,7 +2,7 @@
 
 ## Description 
 
-** This app uses a little UI html and CSS **
+**This app uses a little UI html and CSS**
 
 This project has a simple html and css for better structure and vissulization respectively, it comes with for basic feature captured in functions in the main.js javascript file 
 
@@ -25,7 +25,7 @@ This is used to show data that has been saved in the browser using the localStor
 Just like the name sounds is used to edit the already existing task
 
 ## Other Features 
-Each tasks has the ability to be strike through if you are done or completed the task, this is done by clicking on the each of the task.
+Each tasks has the ability to be strike through if you are done or completed the task, this is done by clicking on the each of the task. There is event listener for this action also for the edit and delete button. 
 
 Again you can add an empty task, little validation was added to achieve this there by making impossible to add an empty task
 

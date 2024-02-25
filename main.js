@@ -1,4 +1,8 @@
+/* 
+    A simple todo task using html css and JavaScript
+    The README.MD file contains all details about the project
 
+*/
 const inputBox = document.getElementById('input-box')
 const listContainer = document.getElementById('list-container')
 
@@ -46,18 +50,19 @@ listContainer.addEventListener('click', function(e){
     }
 })
 
-
+//  function to save data using localStorage
 function saveData(){
     localStorage.setItem('data', listContainer.innerHTML)
 }
 
+// function to showTask saved already
 function showTask(){
     listContainer.innerHTML = localStorage.getItem('data')
 }
 
 showTask()
 
-/* Lets edit a task */
+/* Lets edit a task  using editTask function with a parameter li*/
 
 function editTask(li) {
     let editValue = prompt('Enter the new value');
