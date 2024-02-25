@@ -31,3 +31,7 @@ Again you can add an empty task, little validation was added to achieve this the
 
 ## Contribution 
 This is done by Gracious Obeagu, a task for Learnable-23 cohort on our Task-VII week 8 
+
+## Live Project
+
+The link to the live project is [Todo-Task](https://learnable-task-vii.vercel.app/)
